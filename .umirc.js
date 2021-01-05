@@ -8,9 +8,7 @@ import routes from "./config/routes";
 export default defineConfig({
   routes,
   devServer: {
-    port: 7001,
-    open: true,
-    openPage: "/"
+    port: 7005
   },
   dva: {},
   antd: {},
@@ -18,6 +16,6 @@ export default defineConfig({
   chainWebpack(config) {
     config
       .plugin("webpack-open-browser")
-      .use(WebpackOpenBrowser, [{ url: 'http://localhost:7001' }])
+      .use(WebpackOpenBrowser, [{ url: 'http://localhost:7005' }])
   }
 })
