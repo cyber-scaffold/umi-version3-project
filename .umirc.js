@@ -15,5 +15,5 @@ export default defineConfig({
   title: name,
   sass: {
     implementation: require('node-sass'),
-  },
+  }
 })
