@@ -15,6 +15,7 @@ export default defineConfig({
     hot:false,
     hotOnly:false
   },
+  fastRefresh:{},
   dva: {},
   antd: {
     config:{
