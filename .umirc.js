@@ -8,12 +8,19 @@ import { name } from "./package.json";
 export default defineConfig({
   proxy,
   routes,
+  hash:true,
   nodeModulesTransform:{type:"none"},
   devServer: {
-    port: 7005
+    port: 7005,
+    hot:false,
+    hotOnly:false
   },
   dva: {},
-  antd: {},
+  antd: {
+    config:{
+      locale:zhCN
+    }
+  },
   title: name,
   sass: {
     implementation: require('node-sass'),
