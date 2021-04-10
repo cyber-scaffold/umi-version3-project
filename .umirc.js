@@ -1,4 +1,5 @@
 import { defineConfig } from "umi";
+import zhCN from "antd/lib/locale/zh_CN";
 
 import proxy from "./config/proxy";
 import routes from "./config/routes";
