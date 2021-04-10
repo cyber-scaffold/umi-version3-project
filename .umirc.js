@@ -23,6 +23,8 @@ export default defineConfig({
       locale:zhCN
     }
   },
+  locale:{},
+  qiankun:{},
   title: name,
   sass: {
     implementation: require('node-sass'),
