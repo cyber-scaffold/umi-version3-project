@@ -24,7 +24,6 @@ export default defineConfig({
     }
   },
   locale:{},
-  qiankun:{},
   title: name,
   sass: {
     implementation: require('node-sass'),
