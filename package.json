@@ -1,6 +1,8 @@
 {
   "private": true,
+  "version": "1.0.0",
   "name": "umi-version3-project",
+  "description": "基于umijs@3x的前端工程脚手架",
   "scripts": {
     "start": "umi dev",
     "build": "umi build",
