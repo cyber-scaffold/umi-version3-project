@@ -1,8 +1,8 @@
 
 export default [{
-  path: '/',
-  component: '@/layouts',
+  path: "/",
+  component: "@/layouts",
   routes: [{
-    path: '/', component: '@/pages'
+    path: "/", component: "@/pages"
   }]
 }]

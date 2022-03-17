@@ -17,15 +17,12 @@ export default defineConfig({
     hotOnly:false
   },
   fastRefresh:{},
-  dva: {},
+  // dva: {},
   antd: {
     config:{
       locale:zhCN
     }
   },
   locale:{},
-  title: name,
-  sass: {
-    implementation: require('node-sass'),
-  }
+  title: name
 })
