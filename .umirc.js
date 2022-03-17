@@ -16,8 +16,9 @@ export default defineConfig({
     hot:false,
     hotOnly:false
   },
+  ssr:{},
   fastRefresh:{},
-  // dva: {},
+  dva: {},
   antd: {
     config:{
       locale:zhCN
